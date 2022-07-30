@@ -3,6 +3,7 @@
 I'm Joanne and I have been a software enginer for over a decade (professionally) and more unprofessionally. My technical stack is a smorgasbord of what was popular stacks while in my career. I've seen the rise and fall of many languages and frameworks. If you check me out on [LinkedIn](https://www.linkedin.com/in/jlskiles/) you may notice I also am pretty formally educated, but don't worry about that. I think anyone can be an engineer and this is especially true in Software Engineering. So that's why I spend my free time creating videos and tutorials.
 
 ## Latest YouTube videos
+* [Data Structures & Algorithms - Implementing a Binary Tree](https://youtu.be/3t89qAMlvcs)
 * [Data Structures & Algorithms - Introduction to Binary Trees](https://youtu.be/Hmnom6F3m88)
 * [Data Structures & Algorithms - Queues](https://youtu.be/j4WhaCXQCHg)
 * [Data Structures & Algorithms - Stacks](https://youtu.be/jbj00yRwrnY)
