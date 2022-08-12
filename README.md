@@ -1,6 +1,6 @@
 ### Welcome!
 
-I'm Joanne and I have been a software enginer for over a decade (professionally) and more unprofessionally. My technical stack is a smorgasbord of what was popular stacks while in my career. I've seen the rise and fall of many languages and frameworks. If you check me out on [LinkedIn](https://www.linkedin.com/in/jlskiles/) you may notice I also am pretty formally educated, but don't worry about that. I think anyone can be an engineer and this is especially true in Software Engineering. So that's why I spend my free time creating videos and tutorials.
+Welcome to my GitHub profile! My name is Joanne, and I have been a software engineer for over a decade (professionally) and more unprofessionally. My technical stack is a smorgasbord of what were popular stacks in my career. I've seen the rise and fall of many languages and frameworks. If you check me out on [LinkedIn](https://www.linkedin.com/in/jlskiles/) you may notice I also am pretty formally educated, but don't worry about that. I think anyone can learn how to code, so that's why I spend my free time creating videos and tutorials.
 
 ## Latest YouTube videos
 * [Data Structures & Algorithms - Implementing a Binary Tree](https://youtu.be/3t89qAMlvcs)
