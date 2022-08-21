@@ -3,6 +3,7 @@
 Welcome to my GitHub profile! My name is Joanne, and I have been a software engineer for over a decade (professionally) and more unprofessionally. My technical stack is a smorgasbord of what were popular stacks in my career. I've seen the rise and fall of many languages and frameworks. If you check me out on [LinkedIn](https://www.linkedin.com/in/jlskiles/) you may notice I also am pretty formally educated, but don't worry about that. I think anyone can learn how to code, so that's why I spend my free time creating videos and tutorials.
 
 ## Latest YouTube videos
+* [Data Structures & Algorithms -  Traversing A Binary Tree](https://youtu.be/Wyt1359_djA)
 * [Data Structures & Algorithms - Implementing a Binary Tree](https://youtu.be/3t89qAMlvcs)
 * [Data Structures & Algorithms - Introduction to Binary Trees](https://youtu.be/Hmnom6F3m88)
 * [Data Structures & Algorithms - Queues](https://youtu.be/j4WhaCXQCHg)
