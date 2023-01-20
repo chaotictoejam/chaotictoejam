@@ -3,6 +3,7 @@
 Welcome to my GitHub profile! My name is Joanne, and I have been a software engineer for over a decade (professionally) and more unprofessionally. If you check me out on [LinkedIn](https://www.linkedin.com/in/jlskiles/) you may notice I also am pretty formally educated, but don't worry about that. I think anyone can learn how to code, so that's why I spend my free time creating videos and tutorials.
 
 ## Latest YouTube videos
+* [How To Trigger A Lambda On A Timer Via AWS Console & Serverless Framework](https://youtu.be/nn14q7ubE5c)
 * [Software Engineering Myths](https://youtu.be/VnzI2Sif9GU)
 * [Let's write a Microservice using AWS Lambda (or maybe not).](https://youtu.be/6owmiDOvE2U)
 * [How To Use Condition Expressions in DynamoDB](https://youtu.be/EacuuiQvJvg)
