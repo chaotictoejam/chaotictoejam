@@ -3,6 +3,8 @@
 Welcome to my GitHub profile! My name is Joanne, and I have been a software engineer for over a decade (professionally) and more unprofessionally. If you check me out on [LinkedIn](https://www.linkedin.com/in/jlskiles/) you may notice I also am pretty formally educated, but don't worry about that. I think anyone can learn how to code, so that's why I spend my free time creating videos and tutorials.
 
 ## Latest Blogs
+* [I Built a Local AI Podcast Editor Because I'm Done Renting My Own Workflow ]{https://dev.to/drjoanneskiles/i-built-a-local-ai-podcast-editor-because-im-done-renting-my-own-workflow-1mpk)
+* [Building "Ghost in The Code" with Kiro: A Kiroween Hackathon Journey 👻](https://dev.to/aws-builders/building-ghost-in-the-code-with-kiro-a-kiroween-hackathon-journey-20fl)
 * [Building a Serverless Dungeon Master Agent on AWS](https://dev.to/aws-builders/building-a-serverless-dungeon-master-agent-on-aws-3j7k)
 * [How To Connect a Squarespace Domain to a Website Hosted on GitHub Pages](https://dev.to/drjoanneskiles/how-to-connect-a-squarespace-domain-to-a-website-hosted-on-github-pages-47i8)
 * [Getting Started with AWS: Tips That Actually Helped Me](https://dev.to/aws-builders/getting-started-with-aws-tips-that-actually-helped-me-35b9)
