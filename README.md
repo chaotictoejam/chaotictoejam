@@ -1,3 +1,5 @@
+🚩 CTF flag hidden somewhere on [chaotictoejam.com](https://chaotictoejam.com) — some things are better left in the source.
+
 ## Welcome! :wave:
 
 Welcome to my GitHub profile! My name is Joanne, and I have been a software engineer for over a decade (professionally) and more unprofessionally. If you check me out on [LinkedIn](https://www.linkedin.com/in/jlskiles/) you may notice I also am pretty formally educated, but don't worry about that. I think anyone can learn how to code, so that's why I spend my free time creating videos and tutorials.
