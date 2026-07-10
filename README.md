@@ -2,6 +2,14 @@
 
 Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years professionally, longer unprofessionally. I organize the Orlando AWS User Group, build things in serverless and AI, and make videos and tutorials because I think anyone can learn to code. [LinkedIn](https://www.linkedin.com/in/jlskiles/) has the formal version, if you want it.
 
+## Featured Projects
+
+- **[darkroom](https://github.com/chaotictoejam/darkroom)** — Local-first, multi-camera podcast editor. Claude generates the edit decision list, FFmpeg renders the export, nothing leaves your machine.
+
+- **[neon-scratch-lounge](https://github.com/chaotictoejam/neon-scratch-lounge)** — A cyberpunk cat RPG that doubles as a live demo for production AI agent architecture on Lambda, Step Functions, and Bedrock.
+
+- **[AWSTutorials](https://github.com/chaotictoejam/AWSTutorials)** — Walkthroughs for API Gateway, Lambda, and DynamoDB, from static site to full serverless stack.
+
 ## Latest Articles
 
 <!-- ARTICLES:START -->
