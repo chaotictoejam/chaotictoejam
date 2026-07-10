@@ -17,7 +17,7 @@ jobs:
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
           comment_tag_name: "ARTICLES"
-          feed_list: "https://dev.to/feed/drjoanneskiles,https://fictionprobably.substack.com/feed"
+          feed_list: "https://dev.to/feed/drjoanneskiles"
           max_post_count: "5"
           template: "$newline- [$title]($url)$newline"
 
