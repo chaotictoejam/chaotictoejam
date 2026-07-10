@@ -8,35 +8,32 @@ on:
       - main
 
 jobs:
-  update-articles:
+  update-readme:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: gautamkrishnar/blog-post-workflow@v1
+
+      - name: Update articles
+        uses: gautamkrishnar/blog-post-workflow@v1
         with:
           comment_tag_name: "ARTICLES"
-          feed_list: "https://dev.to/feed/drjoanneskiles"
+          feed_list: "https://dev.to/feed/drjoanneskiles,https://fictionprobably.substack.com/feed"
           max_post_count: "5"
           template: "$newline- [$title]($url)$newline"
 
-  update-videos:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: gautamkrishnar/blog-post-workflow@v1
+      - name: Update videos
+        uses: gautamkrishnar/blog-post-workflow@v1
         with:
           comment_tag_name: "VIDEOS"
           feed_list: "https://www.youtube.com/feeds/videos.xml?channel_id=UC0fsRDyOi52N3GeInLIz6lA"
           max_post_count: "5"
           template: "$newline- [$title]($url)$newline"
 
-  update-podcasts:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: gautamkrishnar/blog-post-workflow@v1
+      - name: Update podcasts
+        uses: gautamkrishnar/blog-post-workflow@v1
         with:
           comment_tag_name: "PODCASTS"
+          # Replace with actual Chaotic Commits / Her Career Unplugged RSS URLs
           feed_list: "https://anchor.fm/s/1117b1134/podcast/rss,https://anchor.fm/s/10e91d00c/podcast/rss"
           max_post_count: "5"
           template: "$newline- [$title]($url)$newline"
