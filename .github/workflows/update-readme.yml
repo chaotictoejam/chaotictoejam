@@ -33,7 +33,6 @@ jobs:
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
           comment_tag_name: "PODCASTS"
-          # Replace with actual Chaotic Commits / Her Career Unplugged RSS URLs
           feed_list: "https://anchor.fm/s/1117b1134/podcast/rss,https://anchor.fm/s/10e91d00c/podcast/rss"
           max_post_count: "5"
           template: "$newline- [$title]($url)$newline"
