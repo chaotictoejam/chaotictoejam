@@ -41,6 +41,8 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 ## Latest Podcast Episodes
 
 <!-- PODCASTS:START -->
+- [fix: employee scores don&#39;t reset for maternity leave](https://podcasters.spotify.com/pod/show/chaoticcommits/episodes/fix-employee-scores-dont-reset-for-maternity-leave-e3mf6rn)
+
 - [The Job Search Buddy: Networking, Visibility, and Getting Seen with Jodi Gorenstein](https://podcasters.spotify.com/pod/show/hercareerunplugged/episodes/The-Job-Search-Buddy-Networking--Visibility--and-Getting-Seen-with-Jodi-Gorenstein-e3m950c)
 
 - [revoke: if the company falls apart, that&#39;s their fault](https://podcasters.spotify.com/pod/show/chaoticcommits/episodes/revoke-if-the-company-falls-apart--thats-their-fault-e3m6dre)
@@ -48,8 +50,6 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 - [feat: I built a cyberpunk cat RPG to teach production AI architecture](https://podcasters.spotify.com/pod/show/chaoticcommits/episodes/feat-I-built-a-cyberpunk-cat-RPG-to-teach-production-AI-architecture-e3lt0hg)
 
 - [Show Your Worth: Engineering Your Ascent with Shelmina Abji](https://podcasters.spotify.com/pod/show/hercareerunplugged/episodes/Show-Your-Worth-Engineering-Your-Ascent-with-Shelmina-Abji-e3lmc82)
-
-- [feat: embed a stranger in your codebase](https://podcasters.spotify.com/pod/show/chaoticcommits/episodes/feat-embed-a-stranger-in-your-codebase-e3ljh15)
 <!-- PODCASTS:END -->
 
 🚩 CTF flag hidden somewhere on [chaotictoejam.com](https://chaotictoejam.com) — some things are better left in the source.
