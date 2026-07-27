@@ -17,7 +17,14 @@ jobs:
           UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 
           curl -s -A "$UA" "https://dev.to/feed/drjoanneskiles" -o devto.xml
-          curl -s -A "$UA" "https://chaotictoejam.substack.com/feed" -o substack.xml
+
+          SUBSTACK_STATUS=$(curl -s -A "$UA" -w "%{http_code}" "https://chaotictoejam.substack.com/feed" -o substack.xml)
+          echo "Substack fetch status: $SUBSTACK_STATUS"
+          echo "--- first 300 chars of substack.xml ---"
+          head -c 300 substack.xml
+          echo ""
+          echo "--- item count found ---"
+          grep -o "<item>" substack.xml | wc -l
 
           node -e '
             const fs = require("fs");
