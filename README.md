@@ -14,13 +14,9 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 
 <!-- ARTICLES:START -->
 - [The Python exception that leaked tenant secrets](https://dev.to/drjoanneskiles/how-production-secrets-end-up-in-your-logs-and-how-to-actually-stop-it-3lgh)
-
 - [I Built a Cyberpunk Cat RPG to Teach Production AI Architecture](https://dev.to/aws-builders/i-built-a-cyberpunk-cat-rpg-to-teach-production-ai-architecture-3a2b)
-
 - [CDK Deploy-Twice: When Your Infrastructure Needs to Know About Itself](https://dev.to/aws-builders/cdk-deploy-twice-when-your-infrastructure-needs-to-know-about-itself-573g)
-
-- [Serverless Mental Models: What They Don&#39;t Tell You Before You Build](https://dev.to/aws-builders/serverless-mental-models-what-they-dont-tell-you-before-you-build-1ajl)
-
+- [Serverless Mental Models: What They Don't Tell You Before You Build](https://dev.to/aws-builders/serverless-mental-models-what-they-dont-tell-you-before-you-build-1ajl)
 - [Accountability Debt: The Hidden Cost in AI Code Generation](https://dev.to/drjoanneskiles/accountability-debt-the-hidden-cost-in-ai-code-generation-lf6)
 <!-- ARTICLES:END -->
 
