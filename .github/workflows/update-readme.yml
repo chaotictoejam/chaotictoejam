@@ -42,11 +42,13 @@ jobs:
                 console.log("rss2json error:", JSON.stringify(data));
                 return [];
               }
-              return (data.items || []).map(item => ({
-                title: item.title,
-                link: item.link,
-                date: new Date(item.pubDate),
-              }));
+              return (data.items || [])
+                .filter(item => !item.enclosure?.type?.startsWith("audio"))
+                .map(item => ({
+                  title: item.title,
+                  link: item.link,
+                  date: new Date(item.pubDate),
+                }));
             }
 
             const combined = [...parseDevto("devto.xml"), ...parseSubstack("substack.json")]
