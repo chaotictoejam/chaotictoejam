@@ -13,11 +13,11 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 ## Latest Articles
 
 <!-- ARTICLES:START -->
-- [fix: employee scores don't reset for maternity leave](https://chaotictoejam.substack.com/p/fix-employee-scores-dont-reset-for-54e)
 - [Who Is Responsible When "AI" Decides to Punish You Unjustly?](https://chaotictoejam.substack.com/p/who-is-responsible-when-ai-decides)
 - [The Code From "The Graph Traversal Question That Trips Up Senior Engineers"](https://chaotictoejam.substack.com/p/9fc)
 - [Pokemon Go Is Everything Wrong With Lazy Programming](https://chaotictoejam.substack.com/p/pokemon-go-is-everything-wrong-with)
-- [revoke: if the company falls apart, that's their fault](https://chaotictoejam.substack.com/p/revoke-if-the-company-falls-apart-2c9)
+- [Why Your Webcam Uploads Are Huge on Fedora](https://chaotictoejam.substack.com/p/why-your-webcam-uploads-are-huge)
+- [Three Questions to Ask Before You Let a Vendor Embed an Engineer in Your Codebase](https://chaotictoejam.substack.com/p/three-questions-to-ask-before-you)
 <!-- ARTICLES:END -->
 
 ## Latest Videos
