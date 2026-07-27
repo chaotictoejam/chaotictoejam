@@ -6,20 +6,52 @@ on:
   push:
     branches:
       - main
-
 jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
-      - name: Update articles
-        uses: gautamkrishnar/blog-post-workflow@v1
-        with:
-          comment_tag_name: "ARTICLES"
-          feed_list: "https://dev.to/feed/drjoanneskiles,https://chaotictoejam.substack.com/feed"
-          max_post_count: "5"
-          template: "$newline- [$title]($url)$newline"
+      - name: Update articles (dev.to + Substack, custom fetch)
+        run: |
+          UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+
+          curl -s -A "$UA" "https://dev.to/feed/drjoanneskiles" -o devto.xml
+          curl -s -A "$UA" "https://chaotictoejam.substack.com/feed" -o substack.xml
+
+          node -e '
+            const fs = require("fs");
+
+            function parseFeed(path) {
+              const xml = fs.readFileSync(path, "utf8");
+              return [...xml.matchAll(/<item>([\s\S]*?)<\/item>/g)].map(m => {
+                const title = m[1].match(/<title>([\s\S]*?)<\/title>/)?.[1]
+                  .replace(/^<!\[CDATA\[|\]\]>$/g, "").trim();
+                const link = m[1].match(/<link>([\s\S]*?)<\/link>/)?.[1].trim();
+                const pubDate = m[1].match(/<pubDate>([\s\S]*?)<\/pubDate>/)?.[1].trim();
+                return { title, link, date: new Date(pubDate) };
+              });
+            }
+
+            const combined = [...parseFeed("devto.xml"), ...parseFeed("substack.xml")]
+              .sort((a, b) => b.date - a.date)
+              .slice(0, 5)
+              .map(p => `- [${p.title}](${p.link})`)
+              .join("\n");
+
+            const readme = fs.readFileSync("README.md", "utf8");
+            const updated = readme.replace(
+              /<!-- ARTICLES:START -->[\s\S]*?<!-- ARTICLES:END -->/,
+              `<!-- ARTICLES:START -->\n${combined}\n<!-- ARTICLES:END -->`
+            );
+            fs.writeFileSync("README.md", updated);
+          '
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --staged --quiet || git commit -m "Updated with the latest articles"
+          git push
 
       - name: Update videos
         uses: gautamkrishnar/blog-post-workflow@v1
