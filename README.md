@@ -37,6 +37,8 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 ## Latest Podcast Episodes
 
 <!-- PODCASTS:START -->
+- [Career Glow Up: Betting on Yourself and Getting Off the Struggle Bus with Allison Hemmings](https://podcasters.spotify.com/pod/show/hercareerunplugged/episodes/Career-Glow-Up-Betting-on-Yourself-and-Getting-Off-the-Struggle-Bus-with-Allison-Hemmings-e3m9dk1)
+
 - [stale read: down forty minutes after it wasn&#39;t](https://podcasters.spotify.com/pod/show/chaoticcommits/episodes/stale-read-down-forty-minutes-after-it-wasnt-e3mm79u)
 
 - [fix: employee scores don&#39;t reset for maternity leave](https://podcasters.spotify.com/pod/show/chaoticcommits/episodes/fix-employee-scores-dont-reset-for-maternity-leave-e3mf6rn)
@@ -44,8 +46,6 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 - [The Job Search Buddy: Networking, Visibility, and Getting Seen with Jodi Gorenstein](https://podcasters.spotify.com/pod/show/hercareerunplugged/episodes/The-Job-Search-Buddy-Networking--Visibility--and-Getting-Seen-with-Jodi-Gorenstein-e3m950c)
 
 - [revoke: if the company falls apart, that&#39;s their fault](https://podcasters.spotify.com/pod/show/chaoticcommits/episodes/revoke-if-the-company-falls-apart--thats-their-fault-e3m6dre)
-
-- [feat: I built a cyberpunk cat RPG to teach production AI architecture](https://podcasters.spotify.com/pod/show/chaoticcommits/episodes/feat-I-built-a-cyberpunk-cat-RPG-to-teach-production-AI-architecture-e3lt0hg)
 <!-- PODCASTS:END -->
 
 🚩 CTF flag hidden somewhere on [chaotictoejam.com](https://chaotictoejam.com) — some things are better left in the source.
