@@ -13,11 +13,11 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 ## Latest Articles
 
 <!-- ARTICLES:START -->
+- [He Wasn't Analytical. He Was Slow.](https://chaotictoejam.substack.com/p/he-wasnt-analytical-he-was-slow)
 - [The Calibration Room](https://chaotictoejam.substack.com/p/the-calibration-room)
 - [Who Is Responsible When "AI" Decides to Punish You Unjustly?](https://chaotictoejam.substack.com/p/who-is-responsible-when-ai-decides)
 - [The Code From "The Graph Traversal Question That Trips Up Senior Engineers"](https://chaotictoejam.substack.com/p/9fc)
 - [Pokemon Go Is Everything Wrong With Lazy Programming](https://chaotictoejam.substack.com/p/pokemon-go-is-everything-wrong-with)
-- [Why Your Webcam Uploads Are Huge on Fedora](https://chaotictoejam.substack.com/p/why-your-webcam-uploads-are-huge)
 <!-- ARTICLES:END -->
 
 ## Latest Videos
