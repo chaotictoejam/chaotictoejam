@@ -23,15 +23,15 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 ## Latest Videos
 
 <!-- VIDEOS:START -->
-- [The Graph Traversal Question That Trips Up Senior Engineers](https://www.youtube.com/watch?v=n6CCk-9HPG8)
+- [Intro to Java &lpar;2026&rpar; Part 5: Methods](https://www.youtube.com/watch?v=u3c6gqWZxDA)
 
-- [opp_env Workspace Layout and Your First VANET Project](https://www.youtube.com/watch?v=ijXrsBvW-Tw)
+- [Intro to Java &lpar;2026&rpar; Part 4: Reading User Input with Scanner](https://www.youtube.com/watch?v=bKgSUcmMj4c)
 
-- [Hash Maps Solve More Interview Problems Than You Think](https://www.youtube.com/watch?v=P4Qyc9oxJhQ)
+- [Intro to Java &lpar;2026&rpar; Part 3: How Your Code Runs &amp; Common Programming Errors](https://www.youtube.com/watch?v=dWxeUj-rUHU)
 
-- [Getting Started with OMNET++, INET, Veins, and SUMO &lpar;2026 Edition&rpar;](https://www.youtube.com/watch?v=JR4iJhQBD-w)
+- [Intro to Java &lpar;2026&rpar; Part 2: Variables, Types, and var](https://www.youtube.com/watch?v=Agu_SjRKwaE)
 
-- [I Built the Same App 3 Ways on AWS: Which One Actually Makes Sense?](https://www.youtube.com/watch?v=kv-OnMqwCLs)
+- [Intro to Java &lpar;2026&rpar; Part 1: Your First Program](https://www.youtube.com/watch?v=RMGoPwd2boQ)
 <!-- VIDEOS:END -->
 
 ## Latest Podcast Episodes
