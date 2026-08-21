@@ -37,6 +37,8 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 ## Latest Podcast Episodes
 
 <!-- PODCASTS:START -->
+- [abstract: the language was never the point](https://podcasters.spotify.com/pod/show/chaoticcommits/episodes/abstract-the-language-was-never-the-point-e3nmcdi)
+
 - [No Talent Required: Building Culture, Trust, and Courage with Lynne Ghelfi](https://podcasters.spotify.com/pod/show/hercareerunplugged/episodes/No-Talent-Required-Building-Culture--Trust--and-Courage-with-Lynne-Ghelfi-e3ncrce)
 
 - [debt: I know it&#39;s bad and I still open it every day](https://podcasters.spotify.com/pod/show/chaoticcommits/episodes/debt-I-know-its-bad-and-I-still-open-it-every-day-e3nce9q)
@@ -44,8 +46,6 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 - [fix: removed sharpie from whiteboard](https://podcasters.spotify.com/pod/show/chaoticcommits/episodes/fix-removed-sharpie-from-whiteboard-e3n2i30)
 
 - [Career Glow Up: Betting on Yourself and Getting Off the Struggle Bus with Allison Hemmings](https://podcasters.spotify.com/pod/show/hercareerunplugged/episodes/Career-Glow-Up-Betting-on-Yourself-and-Getting-Off-the-Struggle-Bus-with-Allison-Hemmings-e3m9dk1)
-
-- [stale read: down forty minutes after it wasn&#39;t](https://podcasters.spotify.com/pod/show/chaoticcommits/episodes/stale-read-down-forty-minutes-after-it-wasnt-e3mm79u)
 <!-- PODCASTS:END -->
 
 🚩 CTF flag hidden somewhere on [chaotictoejam.com](https://chaotictoejam.com) — some things are better left in the source.
