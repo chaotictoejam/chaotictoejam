@@ -23,6 +23,8 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 ## Latest Videos
 
 <!-- VIDEOS:START -->
+- [When to Use a Heap &lpar;The Answer Interviewers Want to Hear&rpar;](https://www.youtube.com/watch?v=QcWbdgAxzzA)
+
 - [Intro to Java &lpar;2026&rpar; Part 6: Conditionals, Comparisons &amp; Ternary](https://www.youtube.com/watch?v=WSfrsVFKiTw)
 
 - [Intro to Java &lpar;2026&rpar; Part 5: Methods](https://www.youtube.com/watch?v=u3c6gqWZxDA)
@@ -30,8 +32,6 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 - [Intro to Java &lpar;2026&rpar; Part 4: Reading User Input with Scanner](https://www.youtube.com/watch?v=bKgSUcmMj4c)
 
 - [Intro to Java &lpar;2026&rpar; Part 3: How Your Code Runs &amp; Common Programming Errors](https://www.youtube.com/watch?v=dWxeUj-rUHU)
-
-- [Intro to Java &lpar;2026&rpar; Part 2: Variables, Types, and var](https://www.youtube.com/watch?v=Agu_SjRKwaE)
 <!-- VIDEOS:END -->
 
 ## Latest Podcast Episodes
