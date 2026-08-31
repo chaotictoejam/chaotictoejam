@@ -13,10 +13,10 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 ## Latest Articles
 
 <!-- ARTICLES:START -->
+- [When to Use a Heap](https://chaotictoejam.substack.com/p/when-to-use-a-heap)
 - [He Wasn't Analytical. He Was Slow.](https://chaotictoejam.substack.com/p/he-wasnt-analytical-he-was-slow)
 - [The Calibration Room](https://chaotictoejam.substack.com/p/the-calibration-room)
 - [Who Is Responsible When "AI" Decides to Punish You Unjustly?](https://chaotictoejam.substack.com/p/who-is-responsible-when-ai-decides)
-- [The Code From "The Graph Traversal Question That Trips Up Senior Engineers"](https://chaotictoejam.substack.com/p/9fc)
 - [The Python exception that leaked tenant secrets](https://dev.to/drjoanneskiles/how-production-secrets-end-up-in-your-logs-and-how-to-actually-stop-it-3lgh)
 <!-- ARTICLES:END -->
 
