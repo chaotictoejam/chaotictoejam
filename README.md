@@ -37,6 +37,8 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 ## Latest Podcast Episodes
 
 <!-- PODCASTS:START -->
+- [feat: it won&#39;t ask you why](https://podcasters.spotify.com/pod/show/chaoticcommits/episodes/feat-it-wont-ask-you-why-e3oamln)
+
 - [From Invisible to Award-Winning: Bry Bird&#39;s Visibility Strategy for Neurodivergent Founders](https://podcasters.spotify.com/pod/show/hercareerunplugged/episodes/From-Invisible-to-Award-Winning-Bry-Birds-Visibility-Strategy-for-Neurodivergent-Founders-e3nskun)
 
 - [feat: I built a transparent magic 8-ball &lpar;missed the point entirely&rpar;](https://podcasters.spotify.com/pod/show/chaoticcommits/episodes/feat-I-built-a-transparent-magic-8-ball-missed-the-point-entirely-e3nuov6)
@@ -44,8 +46,6 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 - [abstract: the language was never the point](https://podcasters.spotify.com/pod/show/chaoticcommits/episodes/abstract-the-language-was-never-the-point-e3nmcdi)
 
 - [No Talent Required: Building Culture, Trust, and Courage with Lynne Ghelfi](https://podcasters.spotify.com/pod/show/hercareerunplugged/episodes/No-Talent-Required-Building-Culture--Trust--and-Courage-with-Lynne-Ghelfi-e3ncrce)
-
-- [debt: I know it&#39;s bad and I still open it every day](https://podcasters.spotify.com/pod/show/chaoticcommits/episodes/debt-I-know-its-bad-and-I-still-open-it-every-day-e3nce9q)
 <!-- PODCASTS:END -->
 
 🚩 CTF flag hidden somewhere on [chaotictoejam.com](https://chaotictoejam.com) — some things are better left in the source.
