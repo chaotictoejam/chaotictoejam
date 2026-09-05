@@ -13,11 +13,11 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 ## Latest Articles
 
 <!-- ARTICLES:START -->
+- [The calm ask was always the best attack](https://chaotictoejam.substack.com/p/the-calm-ask-was-always-the-best)
 - [My personal site was invisible to Google for four months](https://chaotictoejam.substack.com/p/my-personal-site-was-invisible-to)
 - [My personal site was invisible to Google for four months](https://dev.to/drjoanneskiles/my-personal-site-was-invisible-to-google-for-four-months-3poo)
 - [When to Use a Heap](https://chaotictoejam.substack.com/p/when-to-use-a-heap)
 - [He Wasn't Analytical. He Was Slow.](https://chaotictoejam.substack.com/p/he-wasnt-analytical-he-was-slow)
-- [The Calibration Room](https://chaotictoejam.substack.com/p/the-calibration-room)
 <!-- ARTICLES:END -->
 
 ## Latest Videos
