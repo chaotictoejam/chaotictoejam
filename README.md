@@ -17,7 +17,7 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 - [My personal site was invisible to Google for four months](https://chaotictoejam.substack.com/p/my-personal-site-was-invisible-to)
 - [My personal site was invisible to Google for four months](https://dev.to/drjoanneskiles/my-personal-site-was-invisible-to-google-for-four-months-3poo)
 - [When to Use a Heap](https://chaotictoejam.substack.com/p/when-to-use-a-heap)
-- [He Wasn't Analytical. He Was Slow.](https://chaotictoejam.substack.com/p/he-wasnt-analytical-he-was-slow)
+- [What 'Serverless' Actually Costs You (The Part the Video Skipped)](https://dev.to/aws-builders/what-serverless-actually-costs-you-the-part-the-video-skipped-5d3m)
 <!-- ARTICLES:END -->
 
 ## Latest Videos
