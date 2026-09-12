@@ -13,11 +13,11 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 ## Latest Articles
 
 <!-- ARTICLES:START -->
-- [The calm ask was always the best attack](https://chaotictoejam.substack.com/p/the-calm-ask-was-always-the-best)
-- [My personal site was invisible to Google for four months](https://chaotictoejam.substack.com/p/my-personal-site-was-invisible-to)
+- [What 'Serverless' Actually Costs You (The Part the Video Skipped)](https://dev.to/aws-builders/what-serverless-actually-costs-you-the-part-the-video-skipped-4m31)
 - [My personal site was invisible to Google for four months](https://dev.to/drjoanneskiles/my-personal-site-was-invisible-to-google-for-four-months-3poo)
-- [When to Use a Heap](https://chaotictoejam.substack.com/p/when-to-use-a-heap)
-- [What 'Serverless' Actually Costs You (The Part the Video Skipped)](https://dev.to/aws-builders/what-serverless-actually-costs-you-the-part-the-video-skipped-5d3m)
+- [The Python exception that leaked tenant secrets](https://dev.to/drjoanneskiles/how-production-secrets-end-up-in-your-logs-and-how-to-actually-stop-it-3lgh)
+- [I Built a Cyberpunk Cat RPG to Teach Production AI Architecture](https://dev.to/aws-builders/i-built-a-cyberpunk-cat-rpg-to-teach-production-ai-architecture-3a2b)
+- [CDK Deploy-Twice: When Your Infrastructure Needs to Know About Itself](https://dev.to/aws-builders/cdk-deploy-twice-when-your-infrastructure-needs-to-know-about-itself-573g)
 <!-- ARTICLES:END -->
 
 ## Latest Videos
