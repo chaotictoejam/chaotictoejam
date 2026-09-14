@@ -37,6 +37,8 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 ## Latest Podcast Episodes
 
 <!-- PODCASTS:START -->
+- [Success Shouldn&#39;t Erode You: Dr. Judy Wright&#39;s P.A.C.E. Method for Sustainable Success](https://podcasters.spotify.com/pod/show/hercareerunplugged/episodes/Success-Shouldnt-Erode-You-Dr--Judy-Wrights-P-A-C-E--Method-for-Sustainable-Success-e3oo3m9)
+
 - [debug: how would you know](https://podcasters.spotify.com/pod/show/chaoticcommits/episodes/debug-how-would-you-know-e3olm25)
 
 - [feat: it won&#39;t ask you why](https://podcasters.spotify.com/pod/show/chaoticcommits/episodes/feat-it-wont-ask-you-why-e3oamln)
@@ -44,8 +46,6 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 - [From Invisible to Award-Winning: Bry Bird&#39;s Visibility Strategy for Neurodivergent Founders](https://podcasters.spotify.com/pod/show/hercareerunplugged/episodes/From-Invisible-to-Award-Winning-Bry-Birds-Visibility-Strategy-for-Neurodivergent-Founders-e3nskun)
 
 - [feat: I built a transparent magic 8-ball &lpar;missed the point entirely&rpar;](https://podcasters.spotify.com/pod/show/chaoticcommits/episodes/feat-I-built-a-transparent-magic-8-ball-missed-the-point-entirely-e3nuov6)
-
-- [abstract: the language was never the point](https://podcasters.spotify.com/pod/show/chaoticcommits/episodes/abstract-the-language-was-never-the-point-e3nmcdi)
 <!-- PODCASTS:END -->
 
 🚩 CTF flag hidden somewhere on [chaotictoejam.com](https://chaotictoejam.com) — some things are better left in the source.
