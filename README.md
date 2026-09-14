@@ -23,6 +23,8 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 ## Latest Videos
 
 <!-- VIDEOS:START -->
+- [S3 Storage Classes Explained Fast](https://www.youtube.com/watch?v=tZuzKxhgolQ)
+
 - [CloudFront + S3 Static Site in Under 2 Minutes](https://www.youtube.com/watch?v=sOyk2jsCXtM)
 
 - [What Is IAM, Really](https://www.youtube.com/watch?v=5FmYyI0iGGQ)
@@ -30,8 +32,6 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 - [Dynamic Programming: How to Talk Through It When You&#39;re Stuck](https://www.youtube.com/watch?v=7Qtc51bQ5PE)
 
 - [Lambda in *Almost* 60 Seconds](https://www.youtube.com/watch?v=sCf75ObA1x4)
-
-- [What &quot;Serverless&quot; Actually Means](https://www.youtube.com/watch?v=XRVNnwOp18Y)
 <!-- VIDEOS:END -->
 
 ## Latest Podcast Episodes
