@@ -13,11 +13,11 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 ## Latest Articles
 
 <!-- ARTICLES:START -->
+- [The Lambda Bug That Only Shows Up on Warm Starts](https://chaotictoejam.substack.com/p/the-lambda-bug-that-only-shows-up)
+- [The Lambda Bug That Only Shows Up on Warm Starts](https://dev.to/aws-builders/the-lambda-bug-that-only-shows-up-on-warm-starts-2in)
 - [What 'Serverless' Actually Costs You (The Part the Video Skipped)](https://chaotictoejam.substack.com/p/what-serverless-actually-costs-you)
 - [What 'Serverless' Actually Costs You (The Part the Video Skipped)](https://dev.to/aws-builders/what-serverless-actually-costs-you-the-part-the-video-skipped-4m31)
 - [The calm ask was always the best attack](https://chaotictoejam.substack.com/p/the-calm-ask-was-always-the-best)
-- [My personal site was invisible to Google for four months](https://chaotictoejam.substack.com/p/my-personal-site-was-invisible-to)
-- [My personal site was invisible to Google for four months](https://dev.to/drjoanneskiles/my-personal-site-was-invisible-to-google-for-four-months-3poo)
 <!-- ARTICLES:END -->
 
 ## Latest Videos
