@@ -23,15 +23,15 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 ## Latest Videos
 
 <!-- VIDEOS:START -->
-- [System Design Interview: How I&#39;d Answer Design a URL Shortener](https://www.youtube.com/watch?v=Jl5nXVr3vks)
+- [What Is a CDK Stack? CloudFormation Stacks Explained in 2 Minutes](https://www.youtube.com/watch?v=CXLV7x3_wYU)
+
+- [URL Shortener System Design: How I&#39;d Answer It in an Interview](https://www.youtube.com/watch?v=Jl5nXVr3vks)
 
 - [Intro To Java &lpar;2026&rpar; Part 7: Loops &lpar;while &amp; for&rpar;](https://www.youtube.com/watch?v=8P2_p2ZfJuw)
 
 - [VPC in Plain English](https://www.youtube.com/watch?v=77QM_gPlasw)
 
 - [S3 Storage Classes Explained Fast](https://www.youtube.com/watch?v=tZuzKxhgolQ)
-
-- [CloudFront + S3 Static Site in Under 2 Minutes](https://www.youtube.com/watch?v=sOyk2jsCXtM)
 <!-- VIDEOS:END -->
 
 ## Latest Podcast Episodes
