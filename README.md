@@ -23,6 +23,8 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 ## Latest Videos
 
 <!-- VIDEOS:START -->
+- [Aurora Serverless in Two Minute](https://www.youtube.com/watch?v=7IOBz-WOwfM)
+
 - [EventBridge vs SQS vs SNS](https://www.youtube.com/watch?v=L78oWE_MNbM)
 
 - [API Gateway REST vs HTTP APIs](https://www.youtube.com/watch?v=rxzii0V9DRs)
@@ -30,8 +32,6 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 - [What Is a CDK Stack? CloudFormation Stacks Explained in 2 Minutes](https://www.youtube.com/watch?v=CXLV7x3_wYU)
 
 - [URL Shortener System Design: How I&#39;d Answer It in an Interview](https://www.youtube.com/watch?v=Jl5nXVr3vks)
-
-- [Intro To Java &lpar;2026&rpar; Part 7: Loops &lpar;while &amp; for&rpar;](https://www.youtube.com/watch?v=8P2_p2ZfJuw)
 <!-- VIDEOS:END -->
 
 ## Latest Podcast Episodes
