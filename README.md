@@ -37,6 +37,8 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 ## Latest Podcast Episodes
 
 <!-- PODCASTS:START -->
+- [debug: your codebase is haunted](https://podcasters.spotify.com/pod/show/chaoticcommits/episodes/debug-your-codebase-is-haunted-e3q6mt8)
+
 - [chore: revoke the invitation](https://podcasters.spotify.com/pod/show/chaoticcommits/episodes/chore-revoke-the-invitation-e3pnhvl)
 
 - [When the Playbook Breaks: Rebuilding Your Career After a Layoff](https://podcasters.spotify.com/pod/show/hercareerunplugged/episodes/When-the-Playbook-Breaks-Rebuilding-Your-Career-After-a-Layoff-e3pe1nh)
@@ -44,8 +46,6 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 - [feat: add ambient logging &lpar;not continuous, technically&rpar;](https://podcasters.spotify.com/pod/show/chaoticcommits/episodes/feat-add-ambient-logging-not-continuous--technically-e3pc14b)
 
 - [patch: found the exploit](https://podcasters.spotify.com/pod/show/chaoticcommits/episodes/patch-found-the-exploit-e3p0t6q)
-
-- [Success Shouldn&#39;t Erode You: Dr. Judy Wright&#39;s P.A.C.E. Method for Sustainable Success](https://podcasters.spotify.com/pod/show/hercareerunplugged/episodes/Success-Shouldnt-Erode-You-Dr--Judy-Wrights-P-A-C-E--Method-for-Sustainable-Success-e3oo3m9)
 <!-- PODCASTS:END -->
 
 🚩 CTF flag hidden somewhere on [chaotictoejam.com](https://chaotictoejam.com) — some things are better left in the source.
