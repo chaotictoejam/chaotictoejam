@@ -23,6 +23,8 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 ## Latest Videos
 
 <!-- VIDEOS:START -->
+- [DynamoDB Single-Table Design in One Idea](https://www.youtube.com/watch?v=1I3dokVRv6I)
+
 - [Aurora Serverless in Two Minute](https://www.youtube.com/watch?v=7IOBz-WOwfM)
 
 - [EventBridge vs SQS vs SNS](https://www.youtube.com/watch?v=L78oWE_MNbM)
@@ -30,8 +32,6 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 - [API Gateway REST vs HTTP APIs](https://www.youtube.com/watch?v=rxzii0V9DRs)
 
 - [What Is a CDK Stack? CloudFormation Stacks Explained in 2 Minutes](https://www.youtube.com/watch?v=CXLV7x3_wYU)
-
-- [URL Shortener System Design: How I&#39;d Answer It in an Interview](https://www.youtube.com/watch?v=Jl5nXVr3vks)
 <!-- VIDEOS:END -->
 
 ## Latest Podcast Episodes
