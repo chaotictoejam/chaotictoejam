@@ -10,7 +10,11 @@ jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
 
       - name: Update articles (dev.to + Substack, custom fetch)
         run: |
@@ -79,10 +83,43 @@ jobs:
           max_post_count: "5"
           template: "$newline- [$title]($url)$newline"
 
-      - name: Update podcasts
-        uses: gautamkrishnar/blog-post-workflow@v1
-        with:
-          comment_tag_name: "PODCASTS"
-          feed_list: "https://media.chaotictoejam.com/chaoticcommits/feed.xml,https://anchor.fm/s/10e91d00c/podcast/rss"
-          max_post_count: "5"
-          template: "$newline- [$title]($url)$newline"
+      - name: Update podcasts (custom fetch, tolerates items without <link>)
+        run: |
+          curl -sL "https://media.chaotictoejam.com/chaoticcommits/feed.xml" -o chaoticcommits.xml
+          curl -sL "https://anchor.fm/s/10e91d00c/podcast/rss" -o hercareer.xml
+
+          node -e '
+            const fs = require("fs");
+
+            const text = s => s?.replace(/^\s*<!\[CDATA\[|\]\]>\s*$/g, "").trim();
+
+            function parseRss(path) {
+              const xml = fs.readFileSync(path, "utf8");
+              const channelLink = text(xml.split("<item>")[0].match(/<link>([\s\S]*?)<\/link>/)?.[1]);
+              return [...xml.matchAll(/<item>([\s\S]*?)<\/item>/g)].map(m => {
+                const title = text(m[1].match(/<title>([\s\S]*?)<\/title>/)?.[1]);
+                const link = text(m[1].match(/<link>([\s\S]*?)<\/link>/)?.[1]) || channelLink;
+                const pubDate = text(m[1].match(/<pubDate>([\s\S]*?)<\/pubDate>/)?.[1]);
+                return { title, link, date: new Date(pubDate) };
+              }).filter(p => p.title && p.link);
+            }
+
+            const combined = [...parseRss("chaoticcommits.xml"), ...parseRss("hercareer.xml")]
+              .sort((a, b) => b.date - a.date)
+              .slice(0, 5)
+              .map(p => `- [${p.title.replace(/[\[\]]/g, "\\$&")}](${p.link})`)
+              .join("\n\n");
+
+            const readme = fs.readFileSync("README.md", "utf8");
+            const updated = readme.replace(
+              /<!-- PODCASTS:START -->[\s\S]*?<!-- PODCASTS:END -->/,
+              `<!-- PODCASTS:START -->\n${combined}\n<!-- PODCASTS:END -->`
+            );
+            fs.writeFileSync("README.md", updated);
+          '
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --staged --quiet || git commit -m "Updated with the latest podcast episodes"
+          git push
