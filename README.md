@@ -13,11 +13,11 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 ## Latest Articles
 
 <!-- ARTICLES:START -->
-- [Cheating Is Never Justified](https://chaotictoejam.substack.com/p/cheating-is-never-justified)
-- [Thou Shalt Not Have Sex With Thy Neighbor's Donkey](https://chaotictoejam.substack.com/p/thou-shalt-not-have-sex-with-thy)
-- [The Lambda Bug That Only Shows Up on Warm Starts](https://chaotictoejam.substack.com/p/the-lambda-bug-that-only-shows-up)
-- [The Lambda Bug That Only Shows Up on Warm Starts](https://dev.to/aws-builders/the-lambda-bug-that-only-shows-up-on-warm-starts-2in)
-- [What 'Serverless' Actually Costs You (The Part the Video Skipped)](https://chaotictoejam.substack.com/p/what-serverless-actually-costs-you)
+- Cheating Is Never Justified ([Substack](https://chaotictoejam.substack.com/p/cheating-is-never-justified))
+- Thou Shalt Not Have Sex With Thy Neighbor's Donkey ([Substack](https://chaotictoejam.substack.com/p/thou-shalt-not-have-sex-with-thy))
+- The Lambda Bug That Only Shows Up on Warm Starts ([Dev.to](https://dev.to/aws-builders/the-lambda-bug-that-only-shows-up-on-warm-starts-2in)) ([Substack](https://chaotictoejam.substack.com/p/the-lambda-bug-that-only-shows-up))
+- What 'Serverless' Actually Costs You (The Part the Video Skipped) ([Dev.to](https://dev.to/aws-builders/what-serverless-actually-costs-you-the-part-the-video-skipped-4m31)) ([Substack](https://chaotictoejam.substack.com/p/what-serverless-actually-costs-you))
+- The calm ask was always the best attack ([Substack](https://chaotictoejam.substack.com/p/the-calm-ask-was-always-the-best))
 <!-- ARTICLES:END -->
 
 ## Latest Videos
