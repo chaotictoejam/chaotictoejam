@@ -36,7 +36,7 @@ jobs:
                   .replace(/^<!\[CDATA\[|\]\]>$/g, "").trim();
                 const link = m[1].match(/<link>([\s\S]*?)<\/link>/)?.[1].trim();
                 const pubDate = m[1].match(/<pubDate>([\s\S]*?)<\/pubDate>/)?.[1].trim();
-                return { title, link, date: new Date(pubDate) };
+                return { title, link, date: new Date(pubDate), source: "Dev.to" };
               });
             }
 
@@ -52,13 +52,43 @@ jobs:
                   title: item.title,
                   link: item.link,
                   date: new Date(item.pubDate),
+                  source: "Substack",
                 }));
             }
 
-            const combined = [...parseDevto("devto.xml"), ...parseSubstack("substack.json")]
+            const decode = s => s
+              .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(n))
+              .replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16)))
+              .replace(/&quot;/g, "\"").replace(/&apos;/g, "\x27")
+              .replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&amp;/g, "&");
+
+            // Same article cross-posted to both sources: match on a normalized title
+            const key = s => s.toLowerCase()
+              .replace(/[‘’]/g, "\x27").replace(/[“”]/g, "\"")
+              .replace(/\s+/g, " ").trim();
+
+            const groups = new Map();
+            for (const p of [...parseDevto("devto.xml"), ...parseSubstack("substack.json")]) {
+              if (!p.title || !p.link) continue;
+              const title = decode(p.title);
+              const k = key(title);
+              const g = groups.get(k) ?? { title, date: p.date, links: [] };
+              if (p.date > g.date) g.date = p.date;
+              g.links.push(p);
+              groups.set(k, g);
+            }
+
+            const order = ["Dev.to", "Substack"];
+            const combined = [...groups.values()]
               .sort((a, b) => b.date - a.date)
               .slice(0, 5)
-              .map(p => `- [${p.title}](${p.link})`)
+              .map(g => {
+                const links = g.links
+                  .sort((a, b) => order.indexOf(a.source) - order.indexOf(b.source))
+                  .map(p => `([${p.source}](${p.link}))`)
+                  .join(" ");
+                return `- ${g.title} ${links}`;
+              })
               .join("\n");
 
             const readme = fs.readFileSync("README.md", "utf8");
