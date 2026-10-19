@@ -23,6 +23,8 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 ## Latest Videos
 
 <!-- VIDEOS:START -->
+- [You Don&#39;t Need a Data Platform: AI Pipelines on AWS Serverless &lpar;Full Talk&rpar;](https://www.youtube.com/watch?v=TyxailDmYFM)
+
 - [Step Functions, When to Use Them Instead of Code](https://www.youtube.com/watch?v=rs1LWDUWMww)
 
 - [DynamoDB Single-Table Design in One Idea](https://www.youtube.com/watch?v=1I3dokVRv6I)
@@ -30,8 +32,6 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 - [Aurora Serverless in Two Minute](https://www.youtube.com/watch?v=7IOBz-WOwfM)
 
 - [EventBridge vs SQS vs SNS](https://www.youtube.com/watch?v=L78oWE_MNbM)
-
-- [API Gateway REST vs HTTP APIs](https://www.youtube.com/watch?v=rxzii0V9DRs)
 <!-- VIDEOS:END -->
 
 ## Latest Podcast Episodes
