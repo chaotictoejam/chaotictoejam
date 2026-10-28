@@ -29,7 +29,7 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 
 - [DynamoDB Single-Table Design in One Idea](https://www.youtube.com/watch?v=1I3dokVRv6I)
 
-- [Aurora Serverless in Two Minute](https://www.youtube.com/watch?v=7IOBz-WOwfM)
+- [Aurora Serverless in Two Minutes](https://www.youtube.com/watch?v=7IOBz-WOwfM)
 
 - [EventBridge vs SQS vs SNS](https://www.youtube.com/watch?v=L78oWE_MNbM)
 <!-- VIDEOS:END -->
