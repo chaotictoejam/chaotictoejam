@@ -13,11 +13,11 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 ## Latest Articles
 
 <!-- ARTICLES:START -->
+- I Asked a Room Full of Engineers for Their Worst Production Nightmares, Then Fed Them to an LLM ([Dev.to](https://dev.to/aws-heroes/i-asked-a-room-full-of-engineers-for-their-worst-production-nightmares-then-fed-them-to-an-llm-2859))
 - The Lambda Bug That Only Shows Up on Warm Starts ([Dev.to](https://dev.to/aws-builders/the-lambda-bug-that-only-shows-up-on-warm-starts-2in))
 - What 'Serverless' Actually Costs You (The Part the Video Skipped) ([Dev.to](https://dev.to/aws-builders/what-serverless-actually-costs-you-the-part-the-video-skipped-4m31))
 - My personal site was invisible to Google for four months ([Dev.to](https://dev.to/drjoanneskiles/my-personal-site-was-invisible-to-google-for-four-months-3poo))
 - The Python exception that leaked tenant secrets ([Dev.to](https://dev.to/drjoanneskiles/how-production-secrets-end-up-in-your-logs-and-how-to-actually-stop-it-3lgh))
-- I Built a Cyberpunk Cat RPG to Teach Production AI Architecture ([Dev.to](https://dev.to/aws-builders/i-built-a-cyberpunk-cat-rpg-to-teach-production-ai-architecture-3a2b))
 <!-- ARTICLES:END -->
 
 ## Latest Videos
