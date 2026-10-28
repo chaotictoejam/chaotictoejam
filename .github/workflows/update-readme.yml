@@ -128,6 +128,8 @@ jobs:
           git push
 
       - name: Update videos
+        # YouTube's feed endpoint 404s for every channel on and off; keep the old list and carry on
+        continue-on-error: true
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
           comment_tag_name: "VIDEOS"
