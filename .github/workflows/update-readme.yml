@@ -22,39 +22,56 @@ jobs:
 
           curl -s -A "$UA" "https://dev.to/feed/drjoanneskiles" -o devto.xml
 
-          curl -s "https://api.rss2json.com/v1/api.json?rss_url=https://chaotictoejam.substack.com/feed" -o substack.json
-          echo "--- substack.json preview ---"
-          head -c 300 substack.json
+          # Substack RSS directly; rss2json is only a fallback (it now sits behind a Cloudflare challenge)
+          curl -sL -A "$UA" "https://chaotictoejam.substack.com/feed" -o substack.xml || true
+          curl -s "https://api.rss2json.com/v1/api.json?rss_url=https://chaotictoejam.substack.com/feed" -o substack.json || true
+          echo "--- substack.xml preview ---"
+          head -c 300 substack.xml || true
+          echo
 
           node -e '
             const fs = require("fs");
 
-            function parseDevto(path) {
-              const xml = fs.readFileSync(path, "utf8");
-              return [...xml.matchAll(/<item>([\s\S]*?)<\/item>/g)].map(m => {
-                const title = m[1].match(/<title>([\s\S]*?)<\/title>/)?.[1]
-                  .replace(/^<!\[CDATA\[|\]\]>$/g, "").trim();
-                const link = m[1].match(/<link>([\s\S]*?)<\/link>/)?.[1].trim();
-                const pubDate = m[1].match(/<pubDate>([\s\S]*?)<\/pubDate>/)?.[1].trim();
-                return { title, link, date: new Date(pubDate), source: "Dev.to" };
-              });
-            }
-
-            function parseSubstack(path) {
-              const data = JSON.parse(fs.readFileSync(path, "utf8"));
-              if (data.status !== "ok") {
-                console.log("rss2json error:", JSON.stringify(data));
+            // A broken feed should skip that source, not fail the whole run
+            function safely(label, fn) {
+              try {
+                return fn();
+              } catch (e) {
+                console.log(`::warning::${label} skipped: ${e.message}`);
                 return [];
               }
+            }
+
+            function parseRss(path, source) {
+              const xml = fs.readFileSync(path, "utf8");
+              if (!/<rss[\s>]/.test(xml)) throw new Error(`${path} is not an RSS feed`);
+              return [...xml.matchAll(/<item>([\s\S]*?)<\/item>/g)]
+                .filter(m => !/<enclosure[^>]*type="audio/.test(m[1]))
+                .map(m => {
+                  const title = m[1].match(/<title>([\s\S]*?)<\/title>/)?.[1]
+                    .replace(/^<!\[CDATA\[|\]\]>$/g, "").trim();
+                  const link = m[1].match(/<link>([\s\S]*?)<\/link>/)?.[1].trim();
+                  const pubDate = m[1].match(/<pubDate>([\s\S]*?)<\/pubDate>/)?.[1].trim();
+                  return { title, link, date: new Date(pubDate), source };
+                });
+            }
+
+            function parseRss2json(path, source) {
+              const data = JSON.parse(fs.readFileSync(path, "utf8"));
+              if (data.status !== "ok") throw new Error(`rss2json error: ${JSON.stringify(data)}`);
               return (data.items || [])
                 .filter(item => !item.enclosure?.type?.startsWith("audio"))
                 .map(item => ({
                   title: item.title,
                   link: item.link,
                   date: new Date(item.pubDate),
-                  source: "Substack",
+                  source,
                 }));
             }
+
+            const devto = safely("Dev.to", () => parseRss("devto.xml", "Dev.to"));
+            let substack = safely("Substack RSS", () => parseRss("substack.xml", "Substack"));
+            if (!substack.length) substack = safely("Substack rss2json", () => parseRss2json("substack.json", "Substack"));
 
             const decode = s => s
               .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(n))
@@ -68,7 +85,7 @@ jobs:
               .replace(/\s+/g, " ").trim();
 
             const groups = new Map();
-            for (const p of [...parseDevto("devto.xml"), ...parseSubstack("substack.json")]) {
+            for (const p of [...devto, ...substack]) {
               if (!p.title || !p.link) continue;
               const title = decode(p.title);
               const k = key(title);
@@ -90,6 +107,11 @@ jobs:
                 return `- ${g.title} ${links}`;
               })
               .join("\n");
+
+            if (!combined) {
+              console.log("::warning::No articles fetched; leaving README unchanged");
+              process.exit(0);
+            }
 
             const readme = fs.readFileSync("README.md", "utf8");
             const updated = readme.replace(
