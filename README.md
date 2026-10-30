@@ -37,6 +37,8 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 ## Latest Podcast Episodes
 
 <!-- PODCASTS:START -->
+- [refactor: exorcise it before you nuke it from orbit](https://chaotictoejam.com)
+
 - [Approach It Like a Business, Not a Trophy: Shellee Howard on Debt-Free College and Building College Ready](https://podcasters.spotify.com/pod/show/hercareerunplugged/episodes/Approach-It-Like-a-Business--Not-a-Trophy-Shellee-Howard-on-Debt-Free-College-and-Building-College-Ready-e3r2mcv)
 
 - [query: there&apos;s something in your database and it&apos;s been there since 2017](https://chaotictoejam.com)
@@ -44,8 +46,6 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 - [blame: she left in 2021 and her bash scripts are still running](https://chaotictoejam.com)
 
 - [From Scared to Published: Why Your Story is Your Superpower (with Dr. Gabrielle Pelicci)](https://podcasters.spotify.com/pod/show/hercareerunplugged/episodes/From-Scared-to-Published-Why-Your-Story-is-Your-Superpower-with-Dr--Gabrielle-Pelicci-e3qaifh)
-
-- [debug: your codebase is haunted](https://podcasters.spotify.com/pod/show/chaoticcommits/episodes/debug-your-codebase-is-haunted-e3q6mt8)
 <!-- PODCASTS:END -->
 
 🚩 CTF flag hidden somewhere on [chaotictoejam.com](https://chaotictoejam.com) — some things are better left in the source.
