@@ -14,10 +14,10 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 
 <!-- ARTICLES:START -->
 - I Asked a Room Full of Engineers for Their Worst Production Nightmares, Then Fed Them to an LLM ([Dev.to](https://dev.to/aws-heroes/i-asked-a-room-full-of-engineers-for-their-worst-production-nightmares-then-fed-them-to-an-llm-2859))
+- I Asked a Room of Strangers for Their Tech Horror Stories. Then I Fed Them to AI. ([Substack](https://chaotictoejam.substack.com/p/i-asked-a-room-of-strangers-for-their))
+- Cheating Is Never Justified ([Substack](https://chaotictoejam.substack.com/p/cheating-is-never-justified))
+- Thou Shalt Not Have Sex With Thy Neighbor's Donkey ([Substack](https://chaotictoejam.substack.com/p/thou-shalt-not-have-sex-with-thy))
 - The Lambda Bug That Only Shows Up on Warm Starts ([Dev.to](https://dev.to/aws-builders/the-lambda-bug-that-only-shows-up-on-warm-starts-2in))
-- What 'Serverless' Actually Costs You (The Part the Video Skipped) ([Dev.to](https://dev.to/aws-builders/what-serverless-actually-costs-you-the-part-the-video-skipped-4m31))
-- My personal site was invisible to Google for four months ([Dev.to](https://dev.to/drjoanneskiles/my-personal-site-was-invisible-to-google-for-four-months-3poo))
-- The Python exception that leaked tenant secrets ([Dev.to](https://dev.to/drjoanneskiles/how-production-secrets-end-up-in-your-logs-and-how-to-actually-stop-it-3lgh))
 <!-- ARTICLES:END -->
 
 ## Latest Videos
