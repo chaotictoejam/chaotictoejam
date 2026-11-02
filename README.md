@@ -17,7 +17,7 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 - I Asked a Room of Strangers for Their Tech Horror Stories. Then I Fed Them to AI. ([Substack](https://chaotictoejam.substack.com/p/i-asked-a-room-of-strangers-for-their))
 - Cheating Is Never Justified ([Substack](https://chaotictoejam.substack.com/p/cheating-is-never-justified))
 - Thou Shalt Not Have Sex With Thy Neighbor's Donkey ([Substack](https://chaotictoejam.substack.com/p/thou-shalt-not-have-sex-with-thy))
-- The Lambda Bug That Only Shows Up on Warm Starts ([Dev.to](https://dev.to/aws-builders/the-lambda-bug-that-only-shows-up-on-warm-starts-2in))
+- The Lambda Bug That Only Shows Up on Warm Starts ([Dev.to](https://dev.to/aws-builders/the-lambda-bug-that-only-shows-up-on-warm-starts-2in)) ([Substack](https://chaotictoejam.substack.com/p/the-lambda-bug-that-only-shows-up))
 <!-- ARTICLES:END -->
 
 ## Latest Videos
