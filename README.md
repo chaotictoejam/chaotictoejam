@@ -23,6 +23,8 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 ## Latest Videos
 
 <!-- VIDEOS:START -->
+- [Notification System System Design: How I&#39;d Answer It in an Interview](https://www.youtube.com/watch?v=2rccfT9CKzU)
+
 - [Serverless Doesn&#39;t Mean No Servers](https://www.youtube.com/shorts/67xnN65zEAo)
 
 - [Lambda Cold Starts, Explained](https://www.youtube.com/watch?v=MCLJBynBKew)
@@ -30,8 +32,6 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 - [ECS vs EKS vs Lambda](https://www.youtube.com/watch?v=R1KQlpdrGIc)
 
 - [You Don&#39;t Need a Data Platform: AI Pipelines on AWS Serverless &lpar;Full Talk&rpar;](https://www.youtube.com/watch?v=TyxailDmYFM)
-
-- [Step Functions, When to Use Them Instead of Code](https://www.youtube.com/watch?v=rs1LWDUWMww)
 <!-- VIDEOS:END -->
 
 ## Latest Podcast Episodes
