@@ -23,6 +23,8 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 ## Latest Videos
 
 <!-- VIDEOS:START -->
+- [Bedrock Model Invocation, Sync vs Streaming vs Async](https://www.youtube.com/watch?v=Yq1Jz3A6YVE)
+
 - [A Lambda Function Is Just Code That Waits](https://www.youtube.com/shorts/qQEtlBMLAxA)
 
 - [Notification System System Design: How I&#39;d Answer It in an Interview](https://www.youtube.com/watch?v=2rccfT9CKzU)
@@ -30,8 +32,6 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 - [Serverless Doesn&#39;t Mean No Servers](https://www.youtube.com/shorts/67xnN65zEAo)
 
 - [Lambda Cold Starts, Explained](https://www.youtube.com/watch?v=MCLJBynBKew)
-
-- [ECS vs EKS vs Lambda](https://www.youtube.com/watch?v=R1KQlpdrGIc)
 <!-- VIDEOS:END -->
 
 ## Latest Podcast Episodes
