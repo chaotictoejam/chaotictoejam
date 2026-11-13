@@ -37,6 +37,8 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 ## Latest Podcast Episodes
 
 <!-- PODCASTS:START -->
+- [fix: removed nodeAffinity to the CEO](https://chaotictoejam.com)
+
 - [cast: not everything is a boolean](https://chaotictoejam.com)
 
 - [Don’t Quit, Plan Your Exit: Shannon Baird’s Corporate Exit Method for Leaving on Your Own Terms](https://podcasters.spotify.com/pod/show/hercareerunplugged/episodes/Dont-Quit--Plan-Your-Exit-Shannon-Bairds-Corporate-Exit-Method-for-Leaving-on-Your-Own-Terms-e3ridf0)
@@ -44,8 +46,6 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 - [refactor: exorcise it before you nuke it from orbit](https://chaotictoejam.com)
 
 - [Approach It Like a Business, Not a Trophy: Shellee Howard on Debt-Free College and Building College Ready](https://podcasters.spotify.com/pod/show/hercareerunplugged/episodes/Approach-It-Like-a-Business--Not-a-Trophy-Shellee-Howard-on-Debt-Free-College-and-Building-College-Ready-e3r2mcv)
-
-- [query: there&apos;s something in your database and it&apos;s been there since 2017](https://chaotictoejam.com)
 <!-- PODCASTS:END -->
 
 🚩 CTF flag hidden somewhere on [chaotictoejam.com](https://chaotictoejam.com) — some things are better left in the source.
