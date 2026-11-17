@@ -13,11 +13,11 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 ## Latest Articles
 
 <!-- ARTICLES:START -->
-- I Asked a Room Full of Engineers for Their Worst Production Nightmares, Then Fed Them to an LLM ([Dev.to](https://dev.to/aws-heroes/i-asked-a-room-full-of-engineers-for-their-worst-production-nightmares-then-fed-them-to-an-llm-2859))
-- I Asked a Room of Strangers for Their Tech Horror Stories. Then I Fed Them to AI. ([Substack](https://rss2json.com/to/SyuFb1hTOmHNy1T6CIRhIzb7))
-- Cheating Is Never Justified ([Substack](https://rss2json.com/to/2v2fzA112Rixi9LRcMSggbxo))
-- Thou Shalt Not Have Sex With Thy Neighbor's Donkey ([Substack](https://rss2json.com/to/XiBxwTGBwvSBReKtGbORb0Yv))
-- The Lambda Bug That Only Shows Up on Warm Starts ([Dev.to](https://dev.to/aws-builders/the-lambda-bug-that-only-shows-up-on-warm-starts-2in))
+- [Every VANET tutorial simulates the same German town](https://www.chaotictoejam.com/writing/build-a-vanet-simulation-of-your-own-city/)
+- [I Asked a Room Full of Engineers for Their Worst Production Nightmares, Then Fed Them to an LLM](https://www.chaotictoejam.com/writing/tech-horror-stories-live/) ([Dev.to](https://dev.to/aws-heroes/i-asked-a-room-full-of-engineers-for-their-worst-production-nightmares-then-fed-them-to-an-llm-2859))
+- I Asked a Room of Strangers for Their Tech Horror Stories. Then I Fed Them to AI. ([Substack](https://chaotictoejam.substack.com/p/i-asked-a-room-of-strangers-for-their))
+- Cheating Is Never Justified ([Substack](https://chaotictoejam.substack.com/p/cheating-is-never-justified))
+- Thou Shalt Not Have Sex With Thy Neighbor's Donkey ([Substack](https://chaotictoejam.substack.com/p/thou-shalt-not-have-sex-with-thy))
 <!-- ARTICLES:END -->
 
 ## Latest Videos
