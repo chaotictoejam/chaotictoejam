@@ -16,10 +16,12 @@ jobs:
         with:
           node-version: 24
 
-      - name: Update articles (dev.to + Substack, custom fetch)
+      - name: Update articles (chaotictoejam.com + dev.to + Substack, custom fetch)
         run: |
           UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 
+          # The site's own writing feed is the primary home for every article
+          curl -sL -A "$UA" "https://www.chaotictoejam.com/writing/feed.xml" -o site.xml || true
           curl -s -A "$UA" "https://dev.to/feed/drjoanneskiles" -o devto.xml
 
           # Substack RSS directly; rss2json is only a fallback (it now sits behind a Cloudflare challenge)
@@ -52,7 +54,9 @@ jobs:
                     .replace(/^<!\[CDATA\[|\]\]>$/g, "").trim();
                   const link = m[1].match(/<link>([\s\S]*?)<\/link>/)?.[1].trim();
                   const pubDate = m[1].match(/<pubDate>([\s\S]*?)<\/pubDate>/)?.[1].trim();
-                  return { title, link, date: new Date(pubDate), source };
+                  // Site feed only: where a syndicated entry first ran
+                  const origin = m[1].match(/<source url="([^"]*)"/)?.[1];
+                  return { title, link, date: new Date(pubDate), source, origin };
                 });
             }
 
@@ -69,6 +73,7 @@ jobs:
                 }));
             }
 
+            const site = safely("chaotictoejam.com", () => parseRss("site.xml", "chaotictoejam.com"));
             const devto = safely("Dev.to", () => parseRss("devto.xml", "Dev.to"));
             let substack = safely("Substack RSS", () => parseRss("substack.xml", "Substack"));
             if (!substack.length) substack = safely("Substack rss2json", () => parseRss2json("substack.json", "Substack"));
@@ -84,27 +89,41 @@ jobs:
               .replace(/[‘’]/g, "\x27").replace(/[“”]/g, "\"")
               .replace(/\s+/g, " ").trim();
 
+            // Site titles can differ from the original, so also match on the URL
+            // slug (dev.to/<org>/<slug>, substack /p/<slug>) the site entry credits
+            const slugOf = url => {
+              try { return new URL(url).pathname.replace(/\/+$/, "").split("/").pop().toLowerCase(); }
+              catch { return ""; }
+            };
+
             const groups = new Map();
-            for (const p of [...devto, ...substack]) {
+            const bySlug = new Map();
+            // Site first, so its title wins and its origin slugs are registered
+            for (const p of [...site, ...devto, ...substack]) {
               if (!p.title || !p.link) continue;
               const title = decode(p.title);
               const k = key(title);
-              const g = groups.get(k) ?? { title, date: p.date, links: [] };
+              const g = bySlug.get(slugOf(p.link)) ?? groups.get(k) ?? { title, date: p.date, links: [] };
               if (p.date > g.date) g.date = p.date;
-              g.links.push(p);
+              if (!g.links.some(l => l.source === p.source)) g.links.push(p);
               groups.set(k, g);
+              if (p.origin) bySlug.set(slugOf(p.origin), g);
             }
 
+            const md = s => s.replace(/[\[\]]/g, "\\$&");
             const order = ["Dev.to", "Substack"];
-            const combined = [...groups.values()]
+            const combined = [...new Set(groups.values())]
               .sort((a, b) => b.date - a.date)
               .slice(0, 5)
               .map(g => {
+                const home = g.links.find(p => p.source === "chaotictoejam.com");
                 const links = g.links
+                  .filter(p => p !== home)
                   .sort((a, b) => order.indexOf(a.source) - order.indexOf(b.source))
                   .map(p => `([${p.source}](${p.link}))`)
                   .join(" ");
-                return `- ${g.title} ${links}`;
+                const title = home ? `[${md(g.title)}](${home.link})` : g.title;
+                return `- ${title} ${links}`.trimEnd();
               })
               .join("\n");
 
