@@ -23,6 +23,8 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 ## Latest Videos
 
 <!-- VIDEOS:START -->
+- [IAM Least Privilege in Practice](https://www.youtube.com/watch?v=mVxnFp0C9eI)
+
 - [3 Signals It&#39;s Secretly a Graph Problem](https://www.youtube.com/shorts/2u8ojf5ElXA)
 
 - [What Happens When Your Car Talks to Another Car](https://www.youtube.com/watch?v=7aAOqz91Hdo)
@@ -30,8 +32,6 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 - [Bedrock Model Invocation, Sync vs Streaming vs Async](https://www.youtube.com/watch?v=Yq1Jz3A6YVE)
 
 - [A Lambda Function Is Just Code That Waits](https://www.youtube.com/shorts/qQEtlBMLAxA)
-
-- [Notification System System Design: How I&#39;d Answer It in an Interview](https://www.youtube.com/watch?v=2rccfT9CKzU)
 <!-- VIDEOS:END -->
 
 ## Latest Podcast Episodes
