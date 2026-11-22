@@ -23,15 +23,15 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 ## Latest Videos
 
 <!-- VIDEOS:START -->
+- [Why Does the Internet Have Layers?](https://www.youtube.com/watch?v=lI6EElRTgHk)
+
+- [How NAT Works: One Public IP for Your Whole Network](https://www.youtube.com/watch?v=6FRl1kDusDk)
+
+- [TCP Congestion Control Explained: Slow Start and AIMD](https://www.youtube.com/watch?v=iQ32XHqtPPk)
+
 - [Subnetting and CIDR Explained &lpar;with Worked Examples&rpar;](https://www.youtube.com/watch?v=wt4NIe0ZFe8)
 
 - [The TCP 3-Way Handshake Explained: SYN, SYN-ACK, ACK](https://www.youtube.com/watch?v=3nw1XsHjMcA)
-
-- [How DNS Works: Root, TLD, and Authoritative Servers](https://www.youtube.com/watch?v=-dneles2W20)
-
-- [IAM Least Privilege in Practice](https://www.youtube.com/watch?v=mVxnFp0C9eI)
-
-- [3 Signals It&#39;s Secretly a Graph Problem](https://www.youtube.com/shorts/2u8ojf5ElXA)
 <!-- VIDEOS:END -->
 
 ## Latest Podcast Episodes
