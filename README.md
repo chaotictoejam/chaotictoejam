@@ -23,6 +23,8 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 ## Latest Videos
 
 <!-- VIDEOS:START -->
+- [The One Thing to Know About Hash Maps](https://www.youtube.com/shorts/wSneI6CBOtg)
+
 - [Rate Limiter System Design Interview &lpar;Sliding Window, Token Bucket, Redis INCR&rpar;](https://www.youtube.com/watch?v=05u7M9DivYk)
 
 - [Why Does the Internet Have Layers?](https://www.youtube.com/watch?v=lI6EElRTgHk)
@@ -30,8 +32,6 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 - [How NAT Works: One Public IP for Your Whole Network](https://www.youtube.com/watch?v=6FRl1kDusDk)
 
 - [TCP Congestion Control Explained: Slow Start and AIMD](https://www.youtube.com/watch?v=iQ32XHqtPPk)
-
-- [Subnetting and CIDR Explained &lpar;with Worked Examples&rpar;](https://www.youtube.com/watch?v=wt4NIe0ZFe8)
 <!-- VIDEOS:END -->
 
 ## Latest Podcast Episodes
