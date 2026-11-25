@@ -23,15 +23,15 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 ## Latest Videos
 
 <!-- VIDEOS:START -->
+- [Client-Server vs. Peer-to-Peer &lpar;and How HTTP Works&rpar;](https://www.youtube.com/watch?v=8gZvA_mwzic)
+
+- [Why IPv4 Ran Out and How IPv6 Fixes It](https://www.youtube.com/watch?v=VSjSQvJ4SQ0)
+
+- [Why HTTP Has No Memory: Cookies and Caching Explained](https://www.youtube.com/watch?v=qsqve77-PnM)
+
+- [The Single Biggest IAM Mistake](https://www.youtube.com/shorts/tKK8GnoXX8s)
+
 - [The One Thing to Know About Hash Maps](https://www.youtube.com/shorts/wSneI6CBOtg)
-
-- [Rate Limiter System Design Interview &lpar;Sliding Window, Token Bucket, Redis INCR&rpar;](https://www.youtube.com/watch?v=05u7M9DivYk)
-
-- [Why Does the Internet Have Layers?](https://www.youtube.com/watch?v=lI6EElRTgHk)
-
-- [How NAT Works: One Public IP for Your Whole Network](https://www.youtube.com/watch?v=6FRl1kDusDk)
-
-- [TCP Congestion Control Explained: Slow Start and AIMD](https://www.youtube.com/watch?v=iQ32XHqtPPk)
 <!-- VIDEOS:END -->
 
 ## Latest Podcast Episodes
