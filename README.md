@@ -37,6 +37,8 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 ## Latest Podcast Episodes
 
 <!-- PODCASTS:START -->
+- [revert: &quot;fix: removed nodeAffinity to the CEO&quot;](https://www.chaotictoejam.com/chaotic-commits/episodes/revert-fix-removed-nodeaffinity-to-the-ceo)
+
 - [log: the bug was older than the headline](https://chaotictoejam.com)
 
 - [From Craigslist to CEO: Paige Wiese on Turning a Setback Into a 15-Year Agency](https://podcasters.spotify.com/pod/show/hercareerunplugged/episodes/From-Craigslist-to-CEO-Paige-Wiese-on-Turning-a-Setback-Into-a-15-Year-Agency-e3scn66)
@@ -44,8 +46,6 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 - [fix: removed nodeAffinity to the CEO](https://chaotictoejam.com)
 
 - [cast: not everything is a boolean](https://chaotictoejam.com)
-
-- [Don’t Quit, Plan Your Exit: Shannon Baird’s Corporate Exit Method for Leaving on Your Own Terms](https://podcasters.spotify.com/pod/show/hercareerunplugged/episodes/Dont-Quit--Plan-Your-Exit-Shannon-Bairds-Corporate-Exit-Method-for-Leaving-on-Your-Own-Terms-e3ridf0)
 <!-- PODCASTS:END -->
 
 🚩 CTF flag hidden somewhere on [chaotictoejam.com](https://chaotictoejam.com) — some things are better left in the source.
