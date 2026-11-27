@@ -23,6 +23,8 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 ## Latest Videos
 
 <!-- VIDEOS:START -->
+- [Why Isn&#39;t My S3 Change Showing Up?](https://www.youtube.com/shorts/2iOj2Hb_XIQ)
+
 - [Client-Server vs. Peer-to-Peer &lpar;and How HTTP Works&rpar;](https://www.youtube.com/watch?v=8gZvA_mwzic)
 
 - [Why IPv4 Ran Out and How IPv6 Fixes It](https://www.youtube.com/watch?v=VSjSQvJ4SQ0)
@@ -30,8 +32,6 @@ Welcome to my GitHub profile. I'm Joanne, a software engineer for over 16 years 
 - [Why HTTP Has No Memory: Cookies and Caching Explained](https://www.youtube.com/watch?v=qsqve77-PnM)
 
 - [The Single Biggest IAM Mistake](https://www.youtube.com/shorts/tKK8GnoXX8s)
-
-- [The One Thing to Know About Hash Maps](https://www.youtube.com/shorts/wSneI6CBOtg)
 <!-- VIDEOS:END -->
 
 ## Latest Podcast Episodes
